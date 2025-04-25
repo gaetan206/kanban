@@ -1,0 +1,28 @@
+.kanban-board {
+    min-height: 80vh;
+}
+
+.kanban-column {
+    min-height: 60vh;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.card-placeholder {
+    border: 2px dashed #ccc;
+    background-color: #f8f9fa;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.task-card {
+    cursor: move;
+    transition: transform 0.2s;
+}
+
+.task-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
